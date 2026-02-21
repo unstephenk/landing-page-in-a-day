@@ -1,60 +1,60 @@
-export const content = {
-  businessName: "DFW Pressure Washing",
+﻿export const content = {
+  businessName: "DFW Lawn Care",
   city: "Richardson, TX",
-  phone: "(214) 555-0123",
+  phone: "(214) 555-0199",
   email: "quotes@example.com",
-  primaryCta: "Get a Free Quote",
+  primaryCta: "Text for a Quote",
   secondaryCta: "Call Now",
 
   hero: {
-    headline: "Pressure Washing in Richardson, TX",
-    subheadline: "Driveways, siding, patios, and fences. Fast quotes. Great results.",
-    bullets: ["Same-week availability", "Licensed & insured", "Upfront pricing"],
+    headline: "Lawn Care in Richardson, TX",
+    subheadline: "Mowing, edging, cleanup, and seasonal care. Fast quotes. Reliable crews.",
+    bullets: ["Weekly & bi-weekly", "Upfront pricing", "Same-week start"],
   },
 
   proof: {
     rating: 4.9,
-    reviewCount: 127,
-    badges: ["Licensed & insured", "Free estimates", "Local & reliable"],
+    reviewCount: 94,
+    badges: ["Free estimates", "Locally owned", "On-time service"],
   },
 
   services: [
-    { title: "Driveways & Sidewalks", desc: "Oil stains, algae, and grime removed." },
-    { title: "House Washing", desc: "Low-pressure wash safe for siding." },
-    { title: "Patios & Decks", desc: "Restore curb appeal in one visit." },
-    { title: "Fences", desc: "Clean wood & vinyl fences." },
+    { title: "Mowing & Edging", desc: "Clean lines, consistent cuts, dependable schedule." },
+    { title: "Trimming & Blowing", desc: "Beds, fences, and hard edges—finished look." },
+    { title: "Yard Cleanup", desc: "Leaf removal, haul-off, and one-time resets." },
+    { title: "Seasonal Services", desc: "Mulch refresh, aeration, and overseeding." },
   ],
 
   howItWorks: [
-    { title: "Tell us what you need", desc: "Call or request a quote online." },
-    { title: "Get a fast quote", desc: "We confirm scope, price, and schedule." },
-    { title: "We get it done", desc: "Show up on time and leave it spotless." },
+    { title: "Tell us your address", desc: "Call or text your address + what you need." },
+    { title: "Get a fast quote", desc: "We confirm scope and send pricing." },
+    { title: "We start service", desc: "We show up on schedule and keep it tidy." },
   ],
 
   serviceArea: {
-    cities: ["Richardson", "Plano", "Garland", "Addison", "Dallas"],
+    cities: ["Richardson", "Plano", "Garland", "Wylie", "Sachse"],
     googleMapsUrl: "https://maps.google.com/?q=Richardson+TX",
   },
 
   testimonials: [
     {
-      name: "Jamie R.",
-      text: "Fast quote, showed up on time, and the driveway looks brand new.",
+      name: "Alex P.",
+      text: "Super responsive and the yard looks great every week. Easy to text for changes.",
     },
     {
-      name: "Chris M.",
-      text: "Professional and friendly. Great results on our patio.",
+      name: "Morgan T.",
+      text: "Reliable, fair pricing, and they always clean up after.",
     },
   ],
 
   faq: [
-    { q: "Do you offer free estimates?", a: "Yes—send photos or schedule a quick walkthrough." },
-    { q: "Are you insured?", a: "Yes, we carry liability coverage." },
-    { q: "How soon can you come out?", a: "Often within a few days depending on weather." },
+    { q: "Do you offer weekly and bi-weekly service?", a: "Yes—most clients choose weekly during peak growth." },
+    { q: "Do I need to be home?", a: "No—just make sure gates are unlocked and pets are inside." },
+    { q: "How soon can you start?", a: "Often within a few days depending on route availability." },
   ],
 
   footer: {
     hours: "Mon–Sat 8am–6pm",
-    license: "Licensed & insured",
+    license: "Insured for property work",
   },
 } as const;
