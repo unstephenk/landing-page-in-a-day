@@ -1,4 +1,6 @@
 ﻿export const content = {
+  template: "lawn" as const,
+
   businessName: "DFW Lawn Care",
   city: "Richardson, TX",
   phone: "(214) 555-0199",
