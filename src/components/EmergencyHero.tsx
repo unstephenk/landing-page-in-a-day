@@ -31,7 +31,8 @@ export function EmergencyHero() {
               href={tel}
               className="rounded-lg bg-black px-5 py-3 text-sm font-medium text-white hover:bg-neutral-800"
             >
-              {content.primaryCta}: {content.phone}
+              {content.primaryCta}
+              <span className="ml-2 text-white/80">{content.phone}</span>
             </a>
             <a
               href="#quote"

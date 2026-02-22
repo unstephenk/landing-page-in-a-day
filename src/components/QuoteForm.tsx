@@ -2,10 +2,13 @@ import { content } from "@/content";
 import { Section } from "@/components/Section";
 
 export function QuoteForm() {
+  const title = content.form?.title ?? content.primaryCta;
+  const button = content.form?.button ?? "Request Quote";
+
   return (
     <Section>
       <div id="quote" className="rounded-2xl border p-6">
-        <div className="text-xl font-semibold tracking-tight">{content.primaryCta}</div>
+        <div className="text-xl font-semibold tracking-tight">{title}</div>
         <div className="mt-2 text-sm text-neutral-700">
           Send a few details and we’ll get back to you.
         </div>
@@ -36,7 +39,7 @@ export function QuoteForm() {
             type="submit"
             className="mt-2 rounded-lg bg-black px-5 py-3 text-sm font-medium text-white hover:bg-neutral-800"
           >
-            Request Quote
+            {button}
           </button>
 
           <div className="text-xs text-neutral-500">

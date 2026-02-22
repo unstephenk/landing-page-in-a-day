@@ -5,8 +5,13 @@ export const content = {
   email: "service@example.com",
 
   // Emergency pages should bias toward calling.
-  primaryCta: "Call Now",
+  primaryCta: "Call for Emergency Service",
   secondaryCta: "Request Service",
+
+  form: {
+    title: "Request Service",
+    button: "Request Service",
+  },
 
   emergency: {
     badge: "24/7 Emergency Service",
