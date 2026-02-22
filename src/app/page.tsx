@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
-import { Services } from "@/components/Services";
+import { EmergencyHero } from "@/components/EmergencyHero";
+import { FastResponse } from "@/components/FastResponse";
+import { WhatWeFix } from "@/components/WhatWeFix";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Testimonials } from "@/components/Testimonials";
 import { ServiceArea } from "@/components/ServiceArea";
@@ -13,8 +14,9 @@ export default function Home() {
     <div className="min-h-dvh bg-white text-neutral-900">
       <Header />
       <main>
-        <Hero />
-        <Services />
+        <EmergencyHero />
+        <FastResponse />
+        <WhatWeFix />
         <HowItWorks />
         <Testimonials />
         <ServiceArea />
